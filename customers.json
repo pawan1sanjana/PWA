@@ -1,0 +1,19 @@
+[
+    { "id": 1620, "name": "K. Kasun", "latitude": 6.1671, "longitude": 80.1868 },
+    { "id": 1621, "name": "S. Sandun", "latitude": 6.1680, "longitude": 80.1856 },
+    { "id": 1622, "name": "N. Nimesha", "latitude": 6.1675, "longitude": 80.1852 },
+    { "id": 1623, "name": "A. Anuruddha", "latitude": 6.1668, "longitude": 80.1860 },
+    { "id": 1624, "name": "R. Ruwan", "latitude": 6.1683, "longitude": 80.1863 },
+    { "id": 1625, "name": "S. Saman", "latitude": 6.1679, "longitude": 80.1871 },
+    { "id": 1626, "name": "C. Chandimal", "latitude": 6.1672, "longitude": 80.1859 },
+    { "id": 1627, "name": "G. Gayan", "latitude": 6.1674, "longitude": 80.1867 },
+    { "id": 1628, "name": "A. Amila", "latitude": 6.1676, "longitude": 80.1865 },
+    { "id": 1629, "name": "M. Malik", "contact": "771234567", "latitude": 6.1669, "longitude": 80.1858 },
+    { "id": 1630, "name": "A. Angela", "contact": "771234567", "latitude": 6.1682, "longitude": 80.1873 },
+    { "id": 1631, "name": "R. Ranil", "contact": "771234567", "latitude": 6.1678, "longitude": 80.1864 },
+    { "id": 1632, "name": "G. Gihan", "contact": "771234567", "latitude": 6.1673, "longitude": 80.1857 },
+    { "id": 1633, "name": "M. Manoj",  "contact": "771234567", "latitude": 6.1681, "longitude": 80.1862 },
+    { "id": 1634, "name": "V. Vishva", "latitude": 6.1670, "longitude": 80.1855 },
+    { "id": 1635, "name": "D. Dinuja", "latitude": 6.1667, "longitude": 80.1859 }
+]
+

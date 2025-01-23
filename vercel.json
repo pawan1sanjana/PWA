@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+        {"src": "flask-pwa.py", "use": "@vercel/python"}
+    ],
+    "routes": [
+        {"src": "/(.*)", "dest": "flask-pwa.py"}
+    ]
+}

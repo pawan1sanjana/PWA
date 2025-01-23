@@ -1,0 +1,144 @@
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+p{
+    color: black;
+    text-align: center;
+}
+
+.jumbotron{
+    height: 60vh;
+}
+
+li{
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#map {
+    height: 100vh;
+    width: 100vw;
+}
+
+.floating-input {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.floating-input input {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.floating-input button {
+    padding: 10px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.floating-button, #navigate, #recenter {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 1000;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#navigate {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background-color: #34A853;
+}
+
+#navigate i {
+    font-size: 28px;
+    color: white;
+}
+
+#recenter {
+    position: fixed;
+    bottom: 160px;
+    right: 20px;
+    background-color: white;
+}
+
+#recenter i {
+    font-size: 24px;
+    color: #4285F4;
+}
+
+#info-box {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+#info-box p {
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .floating-input {
+        width: 100%;
+        max-width: none;
+    }
+
+    .floating-input input {
+        font-size: 14px;
+    }
+
+    .floating-input button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .floating-button, #navigate, #recenter {
+        width: 50px;
+        height: 50px;
+    }
+
+    #navigate i, #recenter i {
+        font-size: 20px;
+    }
+
+    #info-box {
+        font-size: 12px;
+    }
+}
